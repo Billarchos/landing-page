@@ -79,6 +79,7 @@ a {
     margin-top: 5px;
     color: white;
     border: none;
+    font-weight: bold;
 }
 
 /* end of header */
@@ -146,7 +147,43 @@ article p {
 
 /* end of second section */
 
+.third-section {
+    min-height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.call {
+    background-color: #3882f6;
+    width: 60%;
+    padding: 15px 50px;
+    box-sizing: border-box;
+    border-radius: 9px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.action-time {
+    color: #f9faf8;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: -15px;
+}
 
+.signup {
+    color: #e5e7eb;
+    font-size: 15px;
+}
 
+.call button {
+    padding: 3px 15px;
+    border-radius: 5px;
+    background-color:#3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+    border: 1px solid white;
+}
+
+/* end of third section */
