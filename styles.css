@@ -187,3 +187,14 @@ article p {
 }
 
 /* end of third section */
+
+footer {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: #e5e7eb;
+}
